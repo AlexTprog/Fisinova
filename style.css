@@ -1,0 +1,86 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-size: 66px;
+    font-weight:600px;
+    list-style: height 80px;
+    color:rgb(255, 255, 255);
+}
+
+p{
+    font-size: 18px;
+    
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0,0,.05);
+    min-height: 100px;
+
+}
+
+.topmargin-xs{
+    margin-top: 15px;
+}
+
+.topmargin-sm{
+    margin-top: 30px;
+}
+
+.topmargin-lg{
+    margin-top: 60px;
+}
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-ligth{
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #ffffff;
+}
+
+.btn i{
+    font-size: 14px;
+    margin-left: 5px;
+
+}
+
+.nav-link {color:black;}
+.nav-link:hover {color: #aaaaaa;}
+
+.logo-brand{
+    min-width: 160px;
+    max-width: 180px;
+}
+
+.navbar.toggler { font-size: 40px;}
+.navbar-toggler:focus{outline: none;}
+
+#hero{
+    background-image: url('images/fondo.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+
+#hero p{
+    color: #ffffff;
+}
+.content-center{
+    font-size: x-large;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+}
