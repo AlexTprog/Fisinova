@@ -9,11 +9,19 @@ h1 {
     color:rgb(255, 255, 255);
 }
 
+h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
 p{
     font-size: 18px;
     
     line-height: 1.8;
     margin-bottom: 0;
+}
+
+section{
+    padding: 100px 0;
 }
 
 .navbar{
@@ -36,7 +44,7 @@ p{
 }
 
 .btn{
-    font-size: 14px;
+    font-size: 18px;
     padding: 15px 26px;
     min-width: 160px;
     border-radius: 2px;
@@ -82,5 +90,4 @@ p{
     max-width: 800px;
     margin: 0 auto 60px auto;
     text-align: center;
-
 }
