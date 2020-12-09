@@ -67,28 +67,22 @@ body{
     margin-left: 20%;
 }
 
-.col-sm-8{
-    margin-left: 17%;
-}
-
-#contact{
-    text-align: center;
-    margin-top: 5%;
-}
-
 .contact-left h1{
     text-align: left;
-    
 }
 
 .contact-left{
     text-align: left;
     margin-left: 15%;
     margin-right: 20%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 .contact-right{
     text-align: left;
     margin-left: 25%;
-    margin-right: 30%
+    margin-right: 30%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
