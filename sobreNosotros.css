@@ -1,15 +1,16 @@
 .encabezado{
     color: aqua;
     position: relative;
-    top: 180px;
-    text-align: center;
+    top: 280px;
+    left: 750px;
+    /*text-align: center;*/
 }
 
 .sobreNosotros{
     width: 70%;
     position: relative;
     left: 250px;
-    top: 200px;
+    top: 340px;
     font-size: 30px;
     text-align:justify;
 }
