@@ -33,7 +33,12 @@
         <!--Items-->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-
+                <li>
+                    <a href="#" class="btn2 redondeado">Iniciar sesion</a>
+                </li>
+                <li>
+                    <a href="#" class="btn2 redondeado">Registrarse</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" id="">Inicio </a>
                 </li>
@@ -188,7 +193,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
-
 
 </body>
 

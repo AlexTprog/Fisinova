@@ -86,3 +86,20 @@ body{
     margin-top: 15%;
     margin-bottom: 15%;
 }
+.btn2 {
+    margin: 15px 15px;
+    background:#000 ;
+    color:#fff ;
+    font-size: 18px;
+    padding: 15px 20px;
+    display: inline-block;
+    position: relative;
+    right: 40px;
+}
+.redondeado {
+    border-radius: 100px;
+}
+.nav-item {
+    position: relative;
+    top: 23px;
+}
