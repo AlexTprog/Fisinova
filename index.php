@@ -171,9 +171,9 @@
                     <div class="contact-right">
                         <h1>Informacion</h1>
                         <div class="form-group">
-                            <input type="email" placeholder="email" class="form-control" name="email">
+                            <input type="email" placeholder="email" class="form-control">
                         </div>
-                        <button type="submit" class="btn btn-outline-secondary btn-block" name="enviar">Enviar</button>
+                        <button type="submit" class="btn btn-outline-secondary btn-block">Enviar</button>
                     </div>
                 </div>
             </div>
