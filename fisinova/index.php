@@ -145,23 +145,26 @@
                 <div class="col-md-6">
                     <div class="contact-left">
                         <h1>Contactanos</h1>
-                        <form class="card">
+                        <form class="card" method="POST">
                             <div class="card-body">
 
                                 <div class="form-group">
-                                    <input type="text" placeholder="Nombre" class="form-control">
+                                    <input type="text" placeholder="Nombre" class="form-control" name="nombre">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="email" placeholder="email" class="form-control">
+                                    <input type="email" placeholder="email" class="form-control" name="email">
                                 </div>
 
                                 <div class="form-group">
                                     <textarea rows="3" cols="3" placeholder="Mensaje" class="form-control"></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-outline-secondary btn-block">Enviar</button>
+                                <button type="submit" class="btn btn-outline-secondary btn-block" name="enviar">Enviar</button>
                             </div>
                         </form>
+                        <?php
+                        include("registrar.php");
+                        ?>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -176,7 +179,7 @@
             </div>
         </div>
     </section>
-
+   
 
     <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
