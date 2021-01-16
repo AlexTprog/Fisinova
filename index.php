@@ -15,6 +15,9 @@
 
     <!--Estilos-->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
 
     <title>Fisinova</title>
 
@@ -33,12 +36,6 @@
         <!--Items-->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li>
-                    <a href="#" class="btn2 redondeado">Iniciar sesion</a>
-                </li>
-                <li>
-                    <a href="#" class="btn2 redondeado">Registrarse</a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" id="">Inicio </a>
                 </li>
@@ -54,11 +51,17 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#" id="">Contactanos</a>
                 </li>
+                <li>
+                    <a href="phptube/login.php" class="btn2 redondeado">Iniciar sesion</a>
+                </li>
+                <li>
+                    <a href="phptube/register.php" class="btn2 redondeado">Registrarse</a>
+                </li>
             </ul>
         </div>
     </nav>
 
-    <header id="header">
+    <header id="header" class="contenedor">
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
@@ -71,9 +74,9 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                    <div class="header-content-right">
+                    <!--<div class="header-content-right">
                         <img src="img/boyprog.gif">
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
