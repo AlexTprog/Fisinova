@@ -1,0 +1,15 @@
+.navbar {
+    background-color: black;
+}
+
+section {
+    margin-top: 10%;
+}
+
+.p {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 5%;
+    background-color: rgb(211, 211, 219);
+    border-radius: 5px;
+}
