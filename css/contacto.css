@@ -51,20 +51,13 @@
 }
 .informacion-cartas{
     margin-top : 40px;
-    margin-left: 605px;
+ 
 
 }
 .fisinova-title{
-    margin-top: 720px;
-    margin-left: 680px;
+    margin-top: 720px;   
 }
-.fisinova-texto{
-   
-    margin-left: -350px;
-}
-.fisinova-texto1{
-margin-left: -175px ;
-}
+
 .body{
     background: #f8f9fa;
 }
@@ -111,4 +104,10 @@ margin-left: -175px ;
 /*Para el efecto sombra al pasar por encima el mouse*/
 .card-section:hover{
     box-shadow: 1px 1px 20px #d2d2d2;
+}
+.team {
+    background:#000 ;
+}
+.text{
+ color: #fff;   
 }
