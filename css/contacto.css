@@ -33,17 +33,17 @@
     right: 50px;
 }
 .video-container{
-    position: absolute;           /*posision abosluta*/
-    z-index:  +100;                 /*se envia el video al fondo*/
-    top : 92px;                       /*pixel superior disstancia*/
-    left : 0px ;                      /*pixel desde la izquierda dist*/
+          /*posision abosluta*/
+    z-index:  -100;                 /*se envia el video al fondo*/
+   margin-top: 90px;                    /*pixel superior disstancia*/
+    left : -20px ;                      /*pixel desde la izquierda dist*/
     width: 100%;                    /*ancho base*/
     height:  calc(100vw * 0.4000); /*el alto de la pantalla 5625*/ 
     overflow: hidden;               /*todo lo q se salga de lfgift se oculte */
     
 }
 .video-container video{
-    position: absolute;
+  
     top: -60px;
     left: 0px;
     width: 100vw;
@@ -51,11 +51,6 @@
 }
 .informacion-cartas{
     margin-top : 40px;
- 
-
-}
-.fisinova-title{
-    margin-top: 720px;   
 }
 
 .body{
@@ -110,4 +105,16 @@
 }
 .text{
  color: #fff;   
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 718px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 755px;
 }
