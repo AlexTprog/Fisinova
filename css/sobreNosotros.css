@@ -39,3 +39,17 @@
     top: 23px;
     right: 50px;
 }
+.navbar-brand {
+    color: #fff;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 30px;
+    margin-left: 5%;
+}
+.navbar-brand:hover {
+    color: #f0f5f9;
+}
+.nav-link {
+    color: #fff;
+    margin-right: 40px;
+    font-size: 17px;
+}
