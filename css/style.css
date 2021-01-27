@@ -2,78 +2,40 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
-.contenedor {
-    background-image: url("../img/fondo1.png");
-    ;
-    position: relative;
-    bottom: 50px;
-    height: 700px;
-    width: 100%;
-}
-.navbar-toggler{
-    font-size : 48px;
-}
-.navbar {
-    background-color: rgb(0, 0, 0, 0.6);
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
-    min-height: 100px;
-}
+    .navbar{
+  
+        background: linear-gradient(-50deg, #636262,rgb(0, 0, 0) );
+        box-shadow: 0 2px 4 px 0 #c9d6df;/*sombra*/
+        min-height: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transition: top .20s ease-out;
+        font-weight: bold;
+    }
+    
 
-.navbar-brand {
-    color: #fff;
-    font-family: 'Bungee Shade', cursive;
-    font-size: 30px;
-    margin-left: 5%;
-}
 
-.navbar-brand:hover {
-    color: #f0f5f9;
-}
 
 .nav-link {
     color: #fff;
-    margin-right: 40px;
-    font-size: 17px;
 }
-
-.nav-link:hover {
-    color: #f0f5f9;
+.nav-link.active, .nav-link:focus{
+    color:#fff ;
 }
-
-#header {
-    margin-top: 0px;
-}
-
-.header-content-left {
-    font-family: 'PT Sans', sans-serif;
-    text-align: center;
-}
-
-.header-content-left h1 {
-    position: relative;
-    top: 200px;
-    right: 200px;
+.navbar-brand {
     color: #fff;
-    font-size: 50px;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 25px;    
+}
+.navbar-collapse{
+   transition:  top .3s ease-out;
+}
+.header nav ul li a {
+    border-bottom: 1px;
+    color: blanchedalmond;
 }
 
-.header-content-left p {
-    position: relative;
-    top: 200px;
-    right: 200px;
-    text-align: justify;
-    color: #fff;
-    ;
-}
+ 
 
-.header-content-left a {
-    position: relative;
-    top: 200px;
-    right: 200px;
-    text-align: justify;
-    color: #fff;
-    ;
-}
 
 
 /*.header-content-right img{
@@ -88,7 +50,7 @@ body {
     color: black;
     padding: 50px 0 30px 0;
     text-align: center;
-    margin-top: 40px;
+   
     margin-bottom: 40px;
     border: solid 2px;
     border-left: none;
@@ -97,11 +59,13 @@ body {
 
 .about-right h1 {
     margin-right: 15%;
+    
 }
 
 .about-right p {
-    margin-top: 30px;
+    margin-top: 0px;
     margin-right: 15%;
+    text-align: justify;
 }
 
 #agenda h1 {
@@ -111,7 +75,10 @@ body {
 #agenda a {
     margin-left: 20%;
 }
-
+.agenda{
+    margin-top: 20px;
+    
+}
 .contact-left h1 {
     text-align: left;
 }
@@ -133,22 +100,61 @@ body {
 }
 
 .btn2 {
-    margin: 5px 5px;
+ 
     background: #fff;
     color: #000;
-    font-size: 18px;
+    
     padding: 5px 10px;
     display: inline-block;
     position: relative;
-    right: 30px;
+    margin-right: 2px;
+    box-sizing: border-box;
+    
+    text-align: center;
 }
 
 .redondeado {
-    border-radius: 100px;
+    border-radius: 40px;
 }
 
 .nav-item {
+    position: relative;   
+    
+    text-align: center;
+}
+.carousel-item{
+    margin-top: 18px;
+    height:  calc(100vw * 0.4500);
     position: relative;
-    top: 5px;
-    right: 50px;
+    -webkit-background-size:cover;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+.carousel{
+    margin-top: 20px; 
+}
+.carousel-caption{
+    bottom: 220px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top:  25px;
+    font-family: merienda;
+}
+.carousel-caption p {
+    width:  60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: poppins;
+}
+.carousel-caption a{
+    text-transform: uppercase  ;
+    background: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    color:#fff;
+    margin-top: 15px;
 }

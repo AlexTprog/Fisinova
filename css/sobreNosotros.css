@@ -1,55 +1,9 @@
 .navbar {
     background-color: black;
 }
-
-.encabezado {
-    color: aqua;
-    position: relative;
-    top: 280px;
-    left: 750px;
-    /*text-align: center;*/
+.Texto{
+    margin-top: 100px;
 }
-
-.sobreNosotros {
-    width: 70%;
-    position: relative;
-    left: 250px;
-    top: 340px;
-    font-size: 30px;
-    text-align: justify;
-}
-
-.btn2 {
-    margin: 10px 10px;
-    background: #fff;
-    color: #000;
-    font-size: 18px;
-    padding: 15px 20px;
-    display: inline-block;
-    position: relative;
-    right: 40px;
-}
-
-.redondeado {
-    border-radius: 100px;
-}
-
-.nav-item {
-    position: relative;
-    top: 23px;
-    right: 50px;
-}
-.navbar-brand {
-    color: #fff;
-    font-family: 'Bungee Shade', cursive;
-    font-size: 30px;
-    margin-left: 5%;
-}
-.navbar-brand:hover {
-    color: #f0f5f9;
-}
-.nav-link {
-    color: #fff;
-    margin-right: 40px;
-    font-size: 17px;
+.sobreNostros{
+    margin-top: 50px;
 }
