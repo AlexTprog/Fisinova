@@ -23,3 +23,13 @@
 .accordion-button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+#galeria img{
+    width: 100%;
+}
+#galeria .col-lg-4{
+
+    padding: 25px;
+}
+.galeri{
+    margin-top: 15px;
+}
