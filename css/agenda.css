@@ -34,3 +34,10 @@
 .agenda{
     margin-top: 50px;
 }
+iframe{
+    width: 100%;
+    height: 90vh;
+}
+.modal-content{
+    width: auto;
+}
