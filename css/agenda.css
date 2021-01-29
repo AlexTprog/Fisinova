@@ -38,7 +38,7 @@
 }
 iframe{
     width: 100%;
-height: 90vh;
+    height: 90vh;
 }
 .base{
     display: flex;
@@ -89,6 +89,13 @@ height: 90vh;
     margin-right: 50px;
     
  }
+ .modal-content{
+     margin-top: -25px;
+ }
+ .modal-body{
+     margin-top: -10px;
+     width: 100%;
+ }
  .textBase1{
     margin-left: 50px;
 }
@@ -113,9 +120,23 @@ height: 90vh;
     width: 100%;
 }
 .base_contenido{
-    margin-top:1px;
+    margin-top:8px;
     background-color: black;
    
     height: 120%;
     width: 100%;
 }
+.textBase3 h6{
+    
+    font-weight: 700;
+    font-size: 2.7rem;
+    margin-right: 50px;
+  color: 
+ blueviolet}
+ .textBase3 h2{
+    color:rgb(255, 254, 255);
+    font-weight: 700;
+    font-size: 2.7rem;
+    margin-right: 50px;
+    
+ }
