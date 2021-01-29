@@ -132,9 +132,11 @@ body {
 }
 .carousel{
     margin-top: 20px; 
+    position: relative;
 }
 .carousel-caption{
     bottom: 220px;
+    position: relative;
 }
 .carousel-caption h5{
     font-size: 45px;
@@ -157,4 +159,7 @@ body {
     display: inline-block;
     color:#fff;
     margin-top: 15px;
+}
+.carousel-inner{
+   position: relative;
 }
