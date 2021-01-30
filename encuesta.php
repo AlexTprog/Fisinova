@@ -8,9 +8,9 @@
   <title>Formulario Registro</title>
 </head>
 <body>
-  <section class="form-register">
+  <form class="form-register" method="post">
     <h4>Formulario Registro</h4>
-    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese el nombre del capitan">
+    <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese el nombre del capitan">
     <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
     <input class="controls" type="text" name="ciclo" id="ciclo" placeholder="Ingrese su ciclo de estudio">
     <input class="controls" type="text" name="curso" id="curso" placeholder="Ingresa el curso a concursar">
@@ -19,9 +19,10 @@
 
     <p>Colocar los siguientes archivos en drive</p>
    <p>Codigo , docx y pptx</p>
-    <input class="botons" type="submit" value="Registrar">
-    
-  </section>
-
+    <input class="botons" type="submit" name="registrar" value="Registrar">
+</form>
+  <?php
+  include("registrar.php");
+  ?>
 </body>
 </html>

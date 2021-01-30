@@ -1,30 +1,27 @@
+
 <?php
 include("con_db.php");
 
-if(isset($_POST['enviar'])){
-    if (strlen ($_POST['nombre']) >= 1 && strlen($_POST['email']) >= 1) {
+if(isset($_POST['registrar'])){
+    if (strlen ($_POST['nombre']) >= 1 && strlen($_POST['correo']) >= 1 && strlen($_POST['ciclo']) >= 1 && strlen($_POST['curso']) >= 1 && strlen($_POST['celular']) >= 1 && strlen($_POST['equipo']) >= 1) {
         $nombre = trim($_POST['nombre']);
-        $email = trim($_POST['email']);
-        $fechareg=date("d/m/y"); 
-        $consulta = "INSERT INTO datos(nombre, email, fecha_reg) VALUES ('$nombre','$email','$fechareg')";
+        $correo = trim($_POST['correo']);
+        $ciclo = trim($_POST['ciclo']);
+        $curso = trim($_POST['curso']);
+        $celular = trim($_POST['celular']);
+        $equipo = trim($_POST['equipo']);
+        $consulta = "INSERT INTO formularioregistro(nombre, correo, ciclo, curso, celular, equipo) VALUES ('$nombre','$correo','$ciclo','$curso','$celular','$equipo')";
         $resultado = mysqli_query($conex,$consulta);
         if($resultado){
-            ?>
-            <h3 class="ok">Te has inscrito correctamente</h3>
+?>
+            <h3>Te has inscrito correctamente</h3>
             <?php
-        }else {
-            ?>
-            <h3 class="bad">Ups, ha ocurrido un error</h3>
-            <?php
-        }
+}
 
     }else{
         ?>
-        <h3 class="bad">Por favor complete los campos</h3>
+        <h3>Por favor complete los campos</h3>
         <?php
     }
 }
-
-
-
 ?>
