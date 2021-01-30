@@ -20,6 +20,7 @@
     <p>Colocar los siguientes archivos en drive</p>
    <p>Codigo , docx y pptx</p>
     <input class="botons" type="submit" name="registrar" value="Registrar">
+    <a href="https://drive.google.com/drive/folders/1UkapUvrGa-6kNMiGVlrdh_9YI_sXp-Ms" class="enlace">Sube tus archivos aqui</a>
 </form>
   <?php
   include("registrar.php");
